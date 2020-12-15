@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "name": "Role",
+  "remark": "-",
+  "controller": "./controller/RoleController",
+  "url": "role",
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false
+},{
+  "_id": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "user",
+  "remark": "-",
+  "controller": "./controller/UserController",
+  "url": "user",
+  "created_at": {
+    "$date": "2020-12-15T11:15:19.051Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:15:19.051Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Group",
+  "remark": "-",
+  "controller": "./controller/GroupController",
+  "url": "group",
+  "created_at": {
+    "$date": "2020-12-15T11:17:02.484Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:02.484Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Menu",
+  "remark": "-",
+  "controller": "./controller/MenuController",
+  "url": "menu",
+  "created_at": {
+    "$date": "2020-12-15T11:17:21.536Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:21.536Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "GroupLevel",
+  "remark": "-",
+  "controller": "./controller/GroupLevelController",
+  "url": "grouplevel",
+  "created_at": {
+    "$date": "2020-12-15T11:17:53.285Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:53.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "GroupLevelRole",
+  "remark": "-",
+  "controller": "./controller/GroupLevelRoleController",
+  "url": "grouplevelrole",
+  "created_at": {
+    "$date": "2020-12-15T11:18:05.652Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:05.652Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "UserGroupLevel",
+  "remark": "-",
+  "controller": "./controller/UserGroupLevelController",
+  "url": "usergrouplevel",
+  "created_at": {
+    "$date": "2020-12-15T11:18:37.812Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:37.812Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "UserRole",
+  "remark": "-",
+  "controller": "./controller/UserRoleController",
+  "url": "userrole",
+  "created_at": {
+    "$date": "2020-12-15T11:18:54.804Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:54.804Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Admin System",
+  "remark": "-",
+  "controller": "",
+  "url": null,
+  "created_at": {
+    "$date": "2020-12-15T13:08:48.247Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T13:08:48.248Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Master Data",
+  "remark": "-",
+  "controller": "",
+  "url": null,
+  "created_at": {
+    "$date": "2020-12-15T13:54:08.508Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T13:54:08.508Z"
+  },
+  "__v": 0
+}]

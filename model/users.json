@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "userid": "admin",
+  "name": "admin",
+  "password": "$2a$10$VE4KjxIOiUaQtotEXiokE.ZTcG1Ahl7AouHElmlYRDBc78AnTiCRe",
+  "email": "admin@admin.com",
+  "phone": "-",
+  "gender": "m",
+  "address": "-",
+  "created_at": {
+    "$date": "2020-12-14T23:25:49.236Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-14T23:25:49.236Z"
+  },
+  "__v": 0
+}]

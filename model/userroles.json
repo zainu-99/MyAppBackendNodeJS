@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155dc"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.926Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.926Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155dd"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.927Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.927Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155de"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.927Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.927Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155df"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.928Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.928Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155e0"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.928Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.928Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155e1"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.929Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.929Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155e2"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.930Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.930Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155e3"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.930Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.930Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155db"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.924Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.924Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd8d4d15b10712b049155e4"
+  },
+  "allowView": true,
+  "allowAdd": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": true,
+  "allowCustom": true,
+  "role": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "user": {
+    "$oid": "5fd7f47d403188157caac355"
+  },
+  "created_at": {
+    "$date": "2020-12-15T15:22:57.931Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T15:22:57.931Z"
+  },
+  "__v": 0
+}]
