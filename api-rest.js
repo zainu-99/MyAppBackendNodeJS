@@ -11,7 +11,6 @@ app.post("/api/login", auth.login)
 
 app.use("/api/*",function(req, res, next) {
     const reqHeader = req.headers
-    console.log(reqHeader)
     jwt.verify(reqHeader.authorization, 'token12345', function(err, decoded) {
         if (!err){
             next();

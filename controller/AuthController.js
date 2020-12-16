@@ -1,4 +1,5 @@
 const model = require("./../model/User");
+const userrole = require("./../model/UserRole");
 const jwt = require("jsonwebtoken");
 
 function login(req, res) {
@@ -19,11 +20,14 @@ function login(req, res) {
                 const token = jwt.sign({ data }, "token12345", {
                     expiresIn: "24h"
                 });
-                res.json({
-                    data,
-                    token,
-                    message: "Login successfully"
-                });
+                console.log(data)
+                userrole.find({user:data._id},function(error,access){
+                    res.json({
+                        data,
+                        access,
+                        message: "Login successfully"
+                    });
+                }).populate("role")
             } else {
                 res.status(401).json({
                     message: "Password wrong"
