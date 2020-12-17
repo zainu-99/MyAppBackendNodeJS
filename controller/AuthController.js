@@ -25,6 +25,7 @@ function login(req, res) {
                     res.json({
                         data,
                         access,
+                        token,
                         message: "Login successfully"
                     });
                 }).populate("role")
