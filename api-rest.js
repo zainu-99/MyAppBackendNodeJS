@@ -16,7 +16,7 @@ app.use("/api/*",function(req, res, next) {
             next();
         } 
         else {
-            res.json({ message: "token expired" })
+            res.json({ message: "token expired",data:{} })
         }
     });
 })

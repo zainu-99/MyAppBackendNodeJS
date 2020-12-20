@@ -12,7 +12,7 @@ function login(req, res) {
             res.json(error)
             return
         }
-        if (data == null) { res.json({ "status": "Userid not found" }); return }
+        if (data == null) { res.json({ message: "Userid not found",data:{}}); return }
         data.verifyPassword(reqBody.password, function(err, valid) {
             if (err) {
                 console.log(err)
@@ -20,7 +20,6 @@ function login(req, res) {
                 const token = jwt.sign({ data }, "token12345", {
                     expiresIn: "24h"
                 });
-                console.log(data)
                 userrole.find({user:data._id},function(error,access){
                     res.json({
                         data,
@@ -30,8 +29,9 @@ function login(req, res) {
                     });
                 }).populate("role")
             } else {
-                res.status(401).json({
-                    message: "Password wrong"
+                res.json({
+                    message: "Password wrong",
+                    data:{}
                 });
             }
         });
