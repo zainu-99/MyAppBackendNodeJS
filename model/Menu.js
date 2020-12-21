@@ -2,8 +2,8 @@ const model = require('./Model');
 const menusSchema = new model.Schema()
 menusSchema.add({
     role: { type: model.Schema.Types.ObjectId, required: true, ref: "Role" },
-    child: { type: [menusSchema], ref: "Menu" },
-    parent: { type: menusSchema, ref: "Menu" },
+    child: { type: [model.Schema.Types.ObjectId], ref: "Menu" },
+    parent: { type: model.Schema.Types.ObjectId, ref: "Menu" },
     remark: String,
     menuText: String,
     icon: String,
