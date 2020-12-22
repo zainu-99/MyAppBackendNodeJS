@@ -22,11 +22,22 @@ groupLevelSchema.pre("save", async function() {
         await grouplevels.findByIdAndUpdate(this.parent,{child})
     }
 })
-groupLevelSchema.pre("delete", async function() {
-   
+groupLevelSchema.pre("update", async function() {
+    const data = await grouplevels.findById(this._update._id);
+    if(data.parent !== this._update.parent){
+        await grouplevels.findByIdAndUpdate(data.parent,{$pullAll: {child: [this._update._id] }})
+        if(this._update.parent !== null){
+            console.log("test")
+            await grouplevels.findByIdAndUpdate(this._update.parent,{$push:{child:[this._update._id]}})
+        }
+    }
 })
-groupLevelSchema.pre("edit", async function() {
-
+groupLevelSchema.pre("deleteOne", async function() {
+    const data = await menus.findById(this._conditions._id);
+    if(data.parent){
+        console.log(data)
+        await menus.findByIdAndUpdate(data.parent,{$pullAll: {child: [this._conditions._id] }})
+    }
 })
 groupLevelSchema.pre("find", async function() {
     this.populate("group child")

@@ -25,11 +25,21 @@ menusSchema.pre("save", async function() {
         await menus.findByIdAndUpdate(this.parent,{child})
     }
 })
-menusSchema.pre("delete", async function() {
-   
+menusSchema.pre("update", async function() {
+    const data = await menus.findById(this._update._id);
+    if(data.parent !== this._update.parent){
+        await menus.findByIdAndUpdate(data.parent,{$pullAll: {child: [this._update._id] }})
+        if(this._update.parent !== null){
+            console.log("test")
+            await menus.findByIdAndUpdate(this._update.parent,{$push:{child:[this._update._id]}})
+        }
+    }
 })
-menusSchema.pre("edit", async function() {
-
+menusSchema.pre("deleteOne", async function() {
+    const data = await menus.findById(this._conditions._id);
+    if(data.parent){
+        await menus.findByIdAndUpdate(data.parent,{$pullAll: {child: [this._conditions._id] }})
+    }
 })
 menusSchema.pre("find", async function() {
     this.populate("role child");

@@ -39,7 +39,7 @@ index = function(req, res) {
     },
     del = function(req, res) {
         const reqBody = req.body;
-        model.deleteOne(reqBody, function(err, data) {
+        model.deleteOne({_id:reqBody._id}, function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
