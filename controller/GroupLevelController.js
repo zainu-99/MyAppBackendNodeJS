@@ -8,8 +8,8 @@ index = function(req, res) {
             res.json({
                 data,
                 message: "Successfully"
-            });
-        }).populate("group");
+            })
+        })
     },
     store = function(req, res) {
         const reqBody = req.body;

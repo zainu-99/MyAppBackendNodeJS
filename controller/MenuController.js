@@ -1,6 +1,6 @@
 const model = require("./../model/Menu")
 index = function(req, res) {
-        model.find(function(err, data) {
+        model.find({parent:null},function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
@@ -9,7 +9,7 @@ index = function(req, res) {
                 data,
                 message: "Successfully"
             });
-        }).populate("role")
+        })
     },
     store = function(req, res) {
         const reqBody = req.body;
