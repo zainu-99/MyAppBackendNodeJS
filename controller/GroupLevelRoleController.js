@@ -32,7 +32,7 @@ index = function(req, res) {
                 res.json(err)
             }
             res.json({
-                data,
+                data : reqBody,
                 message: "Successfully"
             });
         });
@@ -45,7 +45,7 @@ index = function(req, res) {
                 res.json(err)
             }
             res.json({
-                data,
+                data : reqBody,
                 message: "Successfully"
             });
         });
