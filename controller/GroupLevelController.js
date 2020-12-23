@@ -1,6 +1,6 @@
 const model = require("./../model/GroupLevel")
 index = function(req, res) {
-        model.find(function(err, data) {
+        model.find({parent:null},function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)

@@ -9,7 +9,7 @@ index = function(req, res) {
                 data,
                 message: "Successfully"
             });
-        })
+        }).sort("orderSort")
     },
     store = function(req, res) {
         const reqBody = req.body;
