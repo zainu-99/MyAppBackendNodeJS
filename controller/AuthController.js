@@ -1,6 +1,7 @@
 const model = require("./../model/User");
 const userrole = require("./../model/UserRole");
 const jwt = require("jsonwebtoken");
+const userroles = require("./../model/UserRole");
 
 function login(req, res) {
     const reqBody = req.body;
@@ -27,7 +28,7 @@ function login(req, res) {
                         token,
                         message: "Login successfully"
                     });
-                }).populate("role")
+                }).populate("role userroles")
             } else {
                 res.json({
                     message: "Password wrong",
@@ -39,5 +40,5 @@ function login(req, res) {
 }
 
 module.exports = {
-    login,
+    login,access
 }

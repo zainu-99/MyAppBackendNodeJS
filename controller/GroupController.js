@@ -1,6 +1,7 @@
+const userroles = require("../model/UserRole");
 const model = require("./../model/Group")
 index = function(req, res) {
-        model.find(function(err, data) {
+        model.find(async function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
