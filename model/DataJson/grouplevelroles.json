@@ -1,0 +1,599 @@
+[{
+  "_id": {
+    "$oid": "5fe57dda7f41ca20382f7d23"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": true,
+  "isCustomActive": false,
+  "role": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "created_at": {
+    "$date": "2020-12-25T05:51:22.888Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T05:51:22.888Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe59df1e2a1031f3c14c189"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "role": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "created_at": {
+    "$date": "2020-12-25T08:08:17.721Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T08:08:17.722Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5bfd0e2a1031f3c14c18c"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "created_at": {
+    "$date": "2020-12-25T10:32:48.749Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T10:32:48.749Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5c2cbe2a1031f3c14c18d"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "created_at": {
+    "$date": "2020-12-25T10:45:31.365Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T10:45:31.365Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5dfb7e2a1031f3c14c18e"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "created_at": {
+    "$date": "2020-12-25T12:48:55.017Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T12:48:55.017Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5e155e2a1031f3c14c18f"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "created_at": {
+    "$date": "2020-12-25T12:55:49.716Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T12:55:49.716Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5e156e2a1031f3c14c190"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "created_at": {
+    "$date": "2020-12-25T12:55:50.969Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T12:55:50.969Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5e83e3a6a7a253812003a"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "created_at": {
+    "$date": "2020-12-25T13:25:18.841Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T13:25:18.841Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5e8493a6a7a253812003b"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "created_at": {
+    "$date": "2020-12-25T13:25:29.543Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T13:25:29.543Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3083a6a7a253812003c"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fe33bc37ce86f31d456f516"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:20.958Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:20.958Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f30a3a6a7a253812003d"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fe33bb67ce86f31d456f515"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:22.301Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:22.301Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f30b3a6a7a253812003e"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fe33afe7ce86f31d456f513"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:23.960Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:23.960Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f31c3a6a7a253812003f"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:40.056Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:40.056Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f31d3a6a7a2538120040"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:41.269Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:41.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f31e3a6a7a2538120041"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:42.351Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:42.351Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3213a6a7a2538120042"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:45.936Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:45.936Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3223a6a7a2538120043"
+  },
+  "isViewActive": false,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "role": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:11:46.838Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:11:46.838Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3823a6a7a2538120044"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": true,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:13:22.336Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:13:22.336Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3963a6a7a2538120045"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:13:42.216Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:13:42.216Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3983a6a7a2538120046"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:13:44.227Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:13:44.227Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f39a3a6a7a2538120047"
+  },
+  "isViewActive": true,
+  "isCreateActive": true,
+  "isEditActive": true,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:13:46.207Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:13:46.207Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3ae3a6a7a2538120048"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:14:06.511Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:14:06.511Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3af3a6a7a2538120049"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:14:07.564Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:14:07.564Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3b03a6a7a253812004a"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fe33afe7ce86f31d456f513"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:14:08.767Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:14:08.767Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3b23a6a7a253812004b"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fe33bb67ce86f31d456f515"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:14:10.029Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:14:10.029Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5f3b33a6a7a253812004c"
+  },
+  "isViewActive": true,
+  "isCreateActive": false,
+  "isEditActive": false,
+  "isDeleteActive": false,
+  "isPrintActive": false,
+  "isCustomActive": false,
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "role": {
+    "$oid": "5fe33bc37ce86f31d456f516"
+  },
+  "created_at": {
+    "$date": "2020-12-25T14:14:11.777Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T14:14:11.777Z"
+  },
+  "__v": 0
+}]

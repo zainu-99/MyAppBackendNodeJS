@@ -1,0 +1,188 @@
+[{
+  "_id": {
+    "$oid": "5fe44d6f85de9126dc6a1792"
+  },
+  "children": [
+    {
+      "$oid": "5fe4522bc32a0520d817c5b3"
+    },
+    {
+      "$oid": "5fe4520ec32a0520d817c5b2"
+    }
+  ],
+  "menuText": "Admin System",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 1,
+  "role": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "parent": null,
+  "created_at": {
+    "$date": "2020-12-24T08:12:31.936Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:12:31.936Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe44dcc85de9126dc6a1793"
+  },
+  "children": [
+    {
+      "$oid": "5fe4523ac32a0520d817c5b4"
+    },
+    {
+      "$oid": "5fe4524fc32a0520d817c5b5"
+    },
+    {
+      "$oid": "5fe4525dc32a0520d817c5b6"
+    }
+  ],
+  "menuText": "Master Data",
+  "remark": "-",
+  "icon": "fa fa-database",
+  "orderSort": 2,
+  "role": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "parent": null,
+  "created_at": {
+    "$date": "2020-12-24T08:14:04.473Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:14:04.473Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe44e4585de9126dc6a1794"
+  },
+  "children": [],
+  "menuText": "Setting",
+  "remark": "-",
+  "icon": "fa fa-cog",
+  "orderSort": 3,
+  "role": {
+    "$oid": "5fe33afe7ce86f31d456f513"
+  },
+  "parent": null,
+  "created_at": {
+    "$date": "2020-12-24T08:16:05.161Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:16:05.161Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4520ec32a0520d817c5b2"
+  },
+  "children": [],
+  "menuText": "User",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 1,
+  "role": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "parent": {
+    "$oid": "5fe44d6f85de9126dc6a1792"
+  },
+  "created_at": {
+    "$date": "2020-12-24T08:32:14.907Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:32:14.907Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4522bc32a0520d817c5b3"
+  },
+  "children": [],
+  "menuText": "Group",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 2,
+  "role": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "parent": {
+    "$oid": "5fe44d6f85de9126dc6a1792"
+  },
+  "created_at": {
+    "$date": "2020-12-24T08:32:43.712Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:32:43.713Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4523ac32a0520d817c5b4"
+  },
+  "children": [],
+  "menuText": "Group",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 1,
+  "role": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "parent": {
+    "$oid": "5fe44dcc85de9126dc6a1793"
+  },
+  "created_at": {
+    "$date": "2020-12-24T08:32:58.006Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:32:58.007Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4524fc32a0520d817c5b5"
+  },
+  "children": [],
+  "menuText": "Role",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 2,
+  "role": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "parent": {
+    "$oid": "5fe44dcc85de9126dc6a1793"
+  },
+  "created_at": {
+    "$date": "2020-12-24T08:33:19.953Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:33:19.953Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4525dc32a0520d817c5b6"
+  },
+  "children": [],
+  "menuText": "Menu",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 3,
+  "role": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "parent": {
+    "$oid": "5fe44dcc85de9126dc6a1793"
+  },
+  "created_at": {
+    "$date": "2020-12-24T08:33:33.722Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-24T08:33:33.722Z"
+  },
+  "__v": 0
+}]

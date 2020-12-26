@@ -10,6 +10,9 @@ const rolesSchema = new model.Schema({
     HaveAccessDelete: { type: Boolean, default: false },
     HaveAccessPrint: { type: Boolean, default: false },
     HaveAccessCustom: { type: Boolean, default: false },
+    menus:  { type: [model.Schema.Types.ObjectId], ref: "Menu" },
+    userroles:  { type: [model.Schema.Types.ObjectId], ref: "UserRole" },
+    grouplevelroles :  { type: [model.Schema.Types.ObjectId], ref: "GroupLevelRole" },
     created_at: {
         type: Date,
         default: Date.now
@@ -19,5 +22,17 @@ const rolesSchema = new model.Schema({
         default: Date.now
     }
 })
+rolesSchema.pre("deleteMany",function (next) {
+    const document = this._conditions
+    const _id = document._id;
+    model.db.model("Menu").deleteMany({ user: _id })
+    model.db.model("GroupLevelRole").deleteMany({ user: _id })
+    model.db.model("UserRole").deleteMany({ user: _id })
+    next()
+})
+// rolesSchema.pre("find", async function () {
+//     this.populate({path:"userroles",model:"UserRole"})
+// })
+
 const roles = model.db.model("Role", rolesSchema);
 module.exports = roles;

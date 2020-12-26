@@ -1,6 +1,9 @@
 const model = require("./../model/GroupLevelRole")
+const modelgrouplevel = require("./../model/GroupLevel")
+const modelrole = require("./../model/Role")
 index = function(req, res) {
-        model.find(function(err, data) {
+    const reqBody = req.query
+    modelrole.find(function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
@@ -9,58 +12,43 @@ index = function(req, res) {
                 data,
                 message: "Successfully"
             });
-        }).populate("grouplevel role")
+        }).sort("url").populate({path:"grouplevelroles",model:"GroupLevelRole",match:{grouplevel:reqBody.grouplevel}})
     },
     store = function(req, res) {
-        const reqBody = req.body;
-        model.create(reqBody, function(err, data) {
-            if (err) {
-                console.log(err)
-                res.json(err)
-            }
-            res.json({
-                data,
-                message: "Successfully"
-            });
+        res.json({
+            data : {},
+            message: "No function"
         });
     },
     edit = function(req, res) {
         const reqBody = req.body;
-        model.save(reqBody, function(err, data) {
+        model.findOne({grouplevel:reqBody.grouplevel,role:reqBody.role},async(err,data)=>{
             if (err) {
                 console.log(err)
                 res.json(err)
             }
-            res.json({
-                data : reqBody,
-                message: "Successfully"
-            });
-        });
-    },
-    del = function(req, res) {
-        const reqBody = req.body;
-        model.update({_id:reqBody._id},reqBody, function(err, data) {
-            if (err) {
-                console.log(err)
-                res.json(err)
-            }
-            res.json({
-                data : reqBody,
-                message: "Successfully"
-            });
-        });
-    },
-    getById = function(req, res) {
-        const reqBody = req.body;
-        model.findOne(reqBody, function(err, data) {
-            if (err) {
-                console.log(err)
-                res.json(err)
+            if(data !== null){
+                await model.updateMany({grouplevel:reqBody.grouplevel,role:reqBody.role},reqBody)
+                data= reqBody
+            }else{
+                data = await model.create(reqBody)
             }
             res.json({
                 data,
                 message: "Successfully"
             });
+        })
+    },
+    del = function(req, res) {
+        res.json({
+            data : {},
+            message: "No function"
+        });
+    },
+    getById = function(req, res) {
+        res.json({
+            data : {},
+            message: "No function"
         });
     }
 module.exports = {

@@ -1,9 +1,9 @@
 const model = require('./Model');
-const userRole = new model.Schema({
-    user: { type: model.Schema.Types.ObjectId, required: true, ref: "User" },
+const userRoleSchema = new model.Schema({
+    user: { type: model.Schema.Types.ObjectId, index: false, required: true, ref: "User" },
     role: { type: model.Schema.Types.ObjectId, required: true, ref: "Role" },
     allowView: { type: Boolean, default: true },
-    allowAdd: { type: Boolean, default: false },
+    allowCreate: { type: Boolean, default: false },
     allowEdit: { type: Boolean, default: false },
     allowDelete: { type: Boolean, default: false },
     allowPrint: { type: Boolean, default: false },
@@ -17,5 +17,18 @@ const userRole = new model.Schema({
         default: Date.now
     }
 })
-const userroles = model.db.model("UserRole", userRole);
+userRoleSchema.post("save", async document => {
+    await model.db.model("User").findByIdAndUpdate(document.user, { $push: { userroles: [document._id] } })
+    await model.db.model("Role").findByIdAndUpdate(document.role, { $push: { userroles: [document._id] } })
+})
+userRoleSchema.pre("deleteMany", function (next) {
+    const cond = this._conditions
+    userroles.findOne({ user: cond.user, role: cond.role }, async (err, document) => {
+        console.log(document)
+        await model.db.model("Role").findByIdAndUpdate(document.role, { $pullAll: { userroles: [document._id] } })
+        await model.db.model("User").findByIdAndUpdate(document.user, { $pullAll: { userroles: [document._id] } })
+        next()
+    })
+})
+const userroles = model.db.model("UserRole", userRoleSchema);
 module.exports = userroles;

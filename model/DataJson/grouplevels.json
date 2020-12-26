@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "children": [],
+  "grouplevelroles": [
+    {
+      "$oid": "5fe57dda7f41ca20382f7d23"
+    },
+    {
+      "$oid": "5fe59df1e2a1031f3c14c189"
+    },
+    {
+      "$oid": "5fe5e83e3a6a7a253812003a"
+    },
+    {
+      "$oid": "5fe5e8493a6a7a253812003b"
+    },
+    {
+      "$oid": "5fe5f3823a6a7a2538120044"
+    },
+    {
+      "$oid": "5fe5f3963a6a7a2538120045"
+    },
+    {
+      "$oid": "5fe5f3983a6a7a2538120046"
+    },
+    {
+      "$oid": "5fe5f39a3a6a7a2538120047"
+    },
+    {
+      "$oid": "5fe5f3ae3a6a7a2538120048"
+    },
+    {
+      "$oid": "5fe5f3af3a6a7a2538120049"
+    },
+    {
+      "$oid": "5fe5f3b03a6a7a253812004a"
+    },
+    {
+      "$oid": "5fe5f3b23a6a7a253812004b"
+    },
+    {
+      "$oid": "5fe5f3b33a6a7a253812004c"
+    }
+  ],
+  "usergrouplevels": [
+    {
+      "$oid": "5fe68e5d50064f189cce2b5a"
+    }
+  ],
+  "remark": "-",
+  "parent": null,
+  "group": {
+    "$oid": "5fe559f997b46e045456dfc2"
+  },
+  "created_at": {
+    "$date": "2020-12-25T03:18:23.678Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T03:18:23.678Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "children": [],
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5bfd0e2a1031f3c14c18c"
+    },
+    {
+      "$oid": "5fe5c2cbe2a1031f3c14c18d"
+    },
+    {
+      "$oid": "5fe5dfb7e2a1031f3c14c18e"
+    },
+    {
+      "$oid": "5fe5e155e2a1031f3c14c18f"
+    },
+    {
+      "$oid": "5fe5e156e2a1031f3c14c190"
+    },
+    {
+      "$oid": "5fe5f3083a6a7a253812003c"
+    },
+    {
+      "$oid": "5fe5f30a3a6a7a253812003d"
+    },
+    {
+      "$oid": "5fe5f30b3a6a7a253812003e"
+    },
+    {
+      "$oid": "5fe5f31c3a6a7a253812003f"
+    },
+    {
+      "$oid": "5fe5f31d3a6a7a2538120040"
+    },
+    {
+      "$oid": "5fe5f31e3a6a7a2538120041"
+    },
+    {
+      "$oid": "5fe5f3213a6a7a2538120042"
+    },
+    {
+      "$oid": "5fe5f3223a6a7a2538120043"
+    }
+  ],
+  "usergrouplevels": [
+    {
+      "$oid": "5fe6a7f2da964314882704d4"
+    }
+  ],
+  "remark": "-",
+  "parent": null,
+  "group": {
+    "$oid": "5fe5b8fce2a1031f3c14c18a"
+  },
+  "created_at": {
+    "$date": "2020-12-25T10:03:50.512Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T10:03:50.512Z"
+  },
+  "__v": 0
+}]

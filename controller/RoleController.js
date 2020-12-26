@@ -9,7 +9,7 @@ index = function(req, res) {
                 data,
                 message: "Successfully"
             });
-        });
+        }).sort("url");
     },
     store = function(req, res) {
         const reqBody = req.body;
@@ -26,7 +26,7 @@ index = function(req, res) {
     },
     edit = function(req, res) {
         const reqBody = req.body;
-        model.update({_id:reqBody._id},reqBody, function(err, data) {
+        model.updateMany({_id:reqBody._id},reqBody, function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
@@ -39,7 +39,7 @@ index = function(req, res) {
     },
     del = function(req, res) {
         const reqBody = req.body;
-        model.deleteOne({_id:reqBody._id}, function(err, data) {
+        model.deleteMany({_id:reqBody._id}, function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)

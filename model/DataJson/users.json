@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "userid": "user",
+  "name": "user",
+  "email": "user@user.com",
+  "phone": "-",
+  "gender": "F",
+  "address": "-",
+  "password": "$2a$10$kpQjFdnbNxK9qrUE42jzP.CF3b99Fw1aB0EuhvVPzy84/Abt1fhyi",
+  "created_at": {
+    "$date": "2020-12-20T13:47:44.715Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-20T13:47:44.715Z"
+  },
+  "__v": 0,
+  "usergrouplevels": [
+    {
+      "$oid": "5fe6a7f2da964314882704d4"
+    }
+  ],
+  "userroles": [
+    {
+      "$oid": "5fe6ce8ae6213e07d83b7980"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fdf569add7fbe329c228c1e"
+  },
+  "userid": "admin",
+  "name": "admin",
+  "email": "admin@admin.com",
+  "phone": "-",
+  "gender": "M",
+  "address": "-",
+  "password": "$2a$10$O8ZbaYv/L8POlBFZVzpV8.dhnbfXXeeP3kW8YmDP5BVMjr9vtNWLC",
+  "created_at": {
+    "$date": "2020-12-20T13:50:18.020Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-20T13:50:18.020Z"
+  },
+  "__v": 0,
+  "usergrouplevels": [
+    {
+      "$oid": "5fe68e5d50064f189cce2b5a"
+    }
+  ],
+  "userroles": [
+    {
+      "$oid": "5fe6ced7e6213e07d83b7981"
+    },
+    {
+      "$oid": "5fe6cedce6213e07d83b7982"
+    },
+    {
+      "$oid": "5fe6cee1e6213e07d83b7983"
+    },
+    {
+      "$oid": "5fe6cee6e6213e07d83b7984"
+    },
+    {
+      "$oid": "5fe6cefde6213e07d83b7985"
+    },
+    {
+      "$oid": "5fe6cf01e6213e07d83b7986"
+    },
+    {
+      "$oid": "5fe6cf05e6213e07d83b7987"
+    },
+    {
+      "$oid": "5fe6cf0ae6213e07d83b7988"
+    },
+    {
+      "$oid": "5fe6cf0ce6213e07d83b7989"
+    },
+    {
+      "$oid": "5fe6cf0ee6213e07d83b798a"
+    },
+    {
+      "$oid": "5fe6cf11e6213e07d83b798b"
+    },
+    {
+      "$oid": "5fe6cf12e6213e07d83b798c"
+    },
+    {
+      "$oid": "5fe6cf14e6213e07d83b798d"
+    }
+  ]
+}]

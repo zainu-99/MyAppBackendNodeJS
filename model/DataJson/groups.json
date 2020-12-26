@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fe559f997b46e045456dfc2"
+  },
+  "grouplevels": [
+    {
+      "$oid": "5fe559ff97b46e045456dfc3"
+    }
+  ],
+  "name": "admin",
+  "remark": "-",
+  "created_at": {
+    "$date": "2020-12-25T03:18:17.059Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T03:18:17.059Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5b8fce2a1031f3c14c18a"
+  },
+  "grouplevels": [
+    {
+      "$oid": "5fe5b906e2a1031f3c14c18b"
+    }
+  ],
+  "name": "user",
+  "remark": "-",
+  "created_at": {
+    "$date": "2020-12-25T10:03:40.933Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-25T10:03:40.933Z"
+  },
+  "__v": 0
+}]

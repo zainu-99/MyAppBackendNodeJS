@@ -13,7 +13,7 @@ index = function(req, res) {
     },
     store = function(req, res) {
         const reqBody = req.body;
-        model.create(reqBody, function(err, data) {
+        model.create(reqBody, async function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
@@ -21,12 +21,12 @@ index = function(req, res) {
             res.json({
                 data,
                 message: "Successfully"
-            });
-        });
+            })
+        })
     },
     edit = function(req, res) {
         const reqBody = req.body;
-        model.update({_id:reqBody._id},reqBody, function(err, data) {
+        model.updateMany({_id:reqBody._id},reqBody, function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
@@ -39,7 +39,7 @@ index = function(req, res) {
     },
     del = function(req, res) {
         const reqBody = req.body;
-        model.deleteOne({_id:reqBody._id}, function(err, data) {
+        model.deleteMany({_id:reqBody._id}, function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)

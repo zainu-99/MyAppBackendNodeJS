@@ -1,0 +1,455 @@
+[{
+  "_id": {
+    "$oid": "5fd61f8ecc875915e05c0fd8"
+  },
+  "name": "Role",
+  "remark": "-",
+  "controller": "./controller/RoleController",
+  "url": "master/role-m",
+  "HaveAccessView": true,
+  "HaveAccessCreate": true,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": true,
+  "HaveAccessPrint": true,
+  "HaveAccessCustom": false,
+  "created_at": {
+    "$date": "2020-12-20T13:32:20.716Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-20T13:32:20.716Z"
+  },
+  "grouplevelroles": [
+    {
+      "$oid": "5fe57dda7f41ca20382f7d23"
+    },
+    {
+      "$oid": "5fe5c2cbe2a1031f3c14c18d"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6ced7e6213e07d83b7981"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89ac74dfe8c2bd858866c"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": true,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": true,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "User",
+  "remark": "-",
+  "controller": "./controller/UserController",
+  "url": "adminsys/user",
+  "created_at": {
+    "$date": "2020-12-15T11:15:19.051Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:15:19.051Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe59df1e2a1031f3c14c189"
+    },
+    {
+      "$oid": "5fe5bfd0e2a1031f3c14c18c"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6ce8ae6213e07d83b7980"
+    },
+    {
+      "$oid": "5fe6cedce6213e07d83b7982"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b2e18c82d217498f977"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": true,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": true,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Group",
+  "remark": "-",
+  "controller": "./controller/GroupController",
+  "url": "master/group-m",
+  "created_at": {
+    "$date": "2020-12-15T11:17:02.484Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:02.484Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5dfb7e2a1031f3c14c18e"
+    },
+    {
+      "$oid": "5fe5e8493a6a7a253812003b"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cee6e6213e07d83b7984"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b4118c82d217498f978"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": true,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": true,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Menu",
+  "remark": "-",
+  "controller": "./controller/MenuController",
+  "url": "master/menu-m",
+  "created_at": {
+    "$date": "2020-12-15T11:17:21.536Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:21.536Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5e156e2a1031f3c14c190"
+    },
+    {
+      "$oid": "5fe5f3823a6a7a2538120044"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cefde6213e07d83b7985"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": true,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": true,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "GroupLevel",
+  "remark": "-",
+  "controller": "./controller/GroupLevelController",
+  "url": "adminsys/grouplevel",
+  "created_at": {
+    "$date": "2020-12-15T11:17:53.285Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:17:53.285Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5e155e2a1031f3c14c18f"
+    },
+    {
+      "$oid": "5fe5e83e3a6a7a253812003a"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cee1e6213e07d83b7983"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "GroupLevelRole",
+  "remark": "-",
+  "controller": "./controller/GroupLevelRoleController",
+  "url": "adminsys/grouplevelrole",
+  "created_at": {
+    "$date": "2020-12-15T11:18:05.652Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:05.652Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f31c3a6a7a253812003f"
+    },
+    {
+      "$oid": "5fe5f3963a6a7a2538120045"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cf01e6213e07d83b7986"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "UserGroupLevel",
+  "remark": "-",
+  "controller": "./controller/UserGroupLevelController",
+  "url": "adminsys/usergrouplevel",
+  "created_at": {
+    "$date": "2020-12-15T11:18:37.812Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:37.812Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f31d3a6a7a2538120040"
+    },
+    {
+      "$oid": "5fe5f3983a6a7a2538120046"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cf05e6213e07d83b7987"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": true,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "UserRole",
+  "remark": "-",
+  "controller": "./controller/UserRoleController",
+  "url": "adminsys/userrole",
+  "created_at": {
+    "$date": "2020-12-15T11:18:54.804Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T11:18:54.804Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f31e3a6a7a2538120041"
+    },
+    {
+      "$oid": "5fe5f39a3a6a7a2538120047"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cf0ae6213e07d83b7988"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Admin System",
+  "remark": "-",
+  "controller": "",
+  "url": null,
+  "created_at": {
+    "$date": "2020-12-15T13:08:48.247Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T13:08:48.248Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f3213a6a7a2538120042"
+    },
+    {
+      "$oid": "5fe5f3af3a6a7a2538120049"
+    }
+  ],
+  "userroles": [
+    {
+      "$oid": "5fe6cf0ee6213e07d83b798a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd8c0001b7f2e2f70983cc4"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Master Data",
+  "remark": "-",
+  "controller": "",
+  "url": null,
+  "created_at": {
+    "$date": "2020-12-15T13:54:08.508Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-15T13:54:08.508Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f3223a6a7a2538120043"
+    },
+    {
+      "$oid": "5fe5f3ae3a6a7a2538120048"
+    }
+  ],
+  "userroles": [
+    {
+      "$oid": "5fe6cf0ce6213e07d83b7989"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fe33afe7ce86f31d456f513"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Setting",
+  "remark": "",
+  "controller": "",
+  "url": "",
+  "created_at": {
+    "$date": "2020-12-23T12:41:34.189Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-23T12:41:34.189Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f30b3a6a7a253812003e"
+    },
+    {
+      "$oid": "5fe5f3b03a6a7a253812004a"
+    }
+  ],
+  "userroles": [
+    {
+      "$oid": "5fe6cf11e6213e07d83b798b"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fe33bb67ce86f31d456f515"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Change Profile",
+  "remark": "-",
+  "controller": "",
+  "url": "setting/changeprofile",
+  "created_at": {
+    "$date": "2020-12-23T12:44:38.191Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-23T12:44:38.191Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f30a3a6a7a253812003d"
+    },
+    {
+      "$oid": "5fe5f3b23a6a7a253812004b"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cf12e6213e07d83b798c"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fe33bc37ce86f31d456f516"
+  },
+  "HaveAccessView": true,
+  "HaveAccessCreate": false,
+  "HaveAccessEdit": false,
+  "HaveAccessDelete": false,
+  "HaveAccessPrint": false,
+  "HaveAccessCustom": false,
+  "name": "Change Password",
+  "remark": "",
+  "controller": "",
+  "url": "setting/changepassword",
+  "created_at": {
+    "$date": "2020-12-23T12:44:51.335Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-23T12:44:51.335Z"
+  },
+  "__v": 0,
+  "grouplevelroles": [
+    {
+      "$oid": "5fe5f3083a6a7a253812003c"
+    },
+    {
+      "$oid": "5fe5f3b33a6a7a253812004c"
+    }
+  ],
+  "menus": [],
+  "userroles": [
+    {
+      "$oid": "5fe6cf14e6213e07d83b798d"
+    }
+  ]
+}]

@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "5fe68e5d50064f189cce2b5a"
+  },
+  "grouplevel": {
+    "$oid": "5fe559ff97b46e045456dfc3"
+  },
+  "user": {
+    "$oid": "5fdf569add7fbe329c228c1e"
+  },
+  "created_at": {
+    "$date": "2020-12-26T01:14:05.425Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T01:14:05.425Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe6a7f2da964314882704d4"
+  },
+  "grouplevel": {
+    "$oid": "5fe5b906e2a1031f3c14c18b"
+  },
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "created_at": {
+    "$date": "2020-12-26T03:03:14Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T03:03:14Z"
+  },
+  "__v": 0
+}]
