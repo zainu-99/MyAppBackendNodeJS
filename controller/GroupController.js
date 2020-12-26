@@ -1,5 +1,6 @@
 const userroles = require("../model/UserRole");
 const model = require("./../model/Group")
+const auth = require("./AuthController")
 index = function(req, res) {
         model.find(async function(err, data) {
             if (err) {
@@ -8,6 +9,7 @@ index = function(req, res) {
             }
             res.json({
                 data,
+                access : await auth.Access(req),
                 message: "Successfully"
             });
         });

@@ -1,12 +1,14 @@
 const model = require("./../model/Role")
+const auth = require("./AuthController")
 index = function(req, res) {
-        model.find(function(err, data) {
+        model.find(async function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
             }
             res.json({
                 data,
+                access : await auth.Access(req),
                 message: "Successfully"
             });
         }).sort("url");

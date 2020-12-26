@@ -1,12 +1,14 @@
 const model = require("./../model/GroupLevel")
+const auth = require("./AuthController")
 index = function(req, res) {
-        model.find({parent:null},function(err, data) {
+        model.find({parent:null},async function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
             }
             res.json({
                 data,
+                access : await auth.Access(req),
                 message: "Successfully"
             })
         })

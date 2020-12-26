@@ -27,7 +27,7 @@ menusSchema.pre("updateMany", function (next) {
         if (this._update._id !== document.parent) {
             await menus.findByIdAndUpdate(document.parent, { $pullAll: { children: [document._id] } })
             await menus.findByIdAndUpdate(this._update.parent, { $push: { children: [document._id] } })
-        }if(this._update.role !== document.role){
+        } if (this._update.role !== document.role) {
             await model.db.model("Role").findByIdAndUpdate(document.role, { $pullAll: { menus: [document._id] } })
             await model.db.model("Role").findByIdAndUpdate(this._update.role, { $push: { menus: [document._id] } })
         }
@@ -35,18 +35,20 @@ menusSchema.pre("updateMany", function (next) {
     })
 })
 menusSchema.pre("deleteMany", function (next) {
-    const document =this._conditions
+    const document = this._conditions
     menus.deleteMany({ parent: document._id })
-    menus.findById(document._id,async (err,data)=>{
+    menus.findById(document._id, async (err, data) => {
         await model.db.model("Role").findByIdAndUpdate(data.role, { $pullAll: { menus: [document._id] } })
-        await menus.findByIdAndUpdate(data.parent,{$pullAll: {children: [document._id] }})
+        await menus.findByIdAndUpdate(data.parent, { $pullAll: { children: [document._id] } })
         next()
     })
 })
 
 menusSchema.pre("find", async function () {
-    this.populate("role children", null, null, { sort: 'orderSort' })
+    this.populate("children", null, null, { sort: 'orderSort' })
+    this.populate("role", null, null, { populate: { path: 'userroles', model: "UserRole" }})
     this.select("-__v")
 })
+
 const menus = model.db.model("Menu", menusSchema);
 module.exports = menus;

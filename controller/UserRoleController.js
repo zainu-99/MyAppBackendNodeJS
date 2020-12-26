@@ -1,14 +1,16 @@
 const model = require("./../model/UserRole")
 const modelgrouplevelrole = require("./../model/GroupLevelRole")
+const auth = require("./AuthController")
 index = function (req, res) {
     const reqBody = req.query
-    modelgrouplevelrole.find({ grouplevel: { $in: reqBody.grouplevel } }, function (err, data) {
+    modelgrouplevelrole.find({ grouplevel: { $in: reqBody.grouplevel } }, async function (err, data) {
         if (err) {
             console.log(err)
             res.json(err)
         }
         res.json({
             data,
+            access : await auth.Access(req),
             message: "Successfully"
         })
     }).or([{ isViewActive: true },

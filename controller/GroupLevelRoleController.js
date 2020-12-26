@@ -1,15 +1,17 @@
 const model = require("./../model/GroupLevelRole")
 const modelgrouplevel = require("./../model/GroupLevel")
 const modelrole = require("./../model/Role")
+const auth = require("./AuthController")
 index = function(req, res) {
     const reqBody = req.query
-    modelrole.find(function(err, data) {
+    modelrole.find( async function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
             }
             res.json({
                 data,
+                access : await auth.Access(req),
                 message: "Successfully"
             });
         }).sort("url").populate({path:"grouplevelroles",model:"GroupLevelRole",match:{grouplevel:reqBody.grouplevel}})

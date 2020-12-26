@@ -1,12 +1,14 @@
 const model = require("./../model/User")
+const auth = require("./AuthController")
 index = function(req, res) {
-        model.find(null, "userid name email gender address phone", function(err, data) {
+        model.find(null, "userid name email gender address phone", async  function(err, data) {
             if (err) {
                 console.log(err)
                 res.json(err)
             }
             res.json({
                 data,
+                access : await auth.Access(req),
                 message: "Successfully"
             });
         });

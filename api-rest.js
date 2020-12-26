@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken");
 var roles = require('./model/Role');
 var userrole = require('./model/UserRole');
 var auth = require('./controller/AuthController');
+var menuapp = require('./controller/MenuAppController');
 var app = express();
 app.use(express.json());
 app.use(cors())
@@ -21,6 +22,7 @@ app.use("/api/*", function (req, res, next) {
         }
     });
 })
+app.get("/menuapp",menuapp.index)
 app.use("/api/*", function (req, res, next) {
     const oiduser = req.headers.oiduser
     const methode = req.method
