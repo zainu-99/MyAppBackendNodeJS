@@ -25,9 +25,9 @@ const rolesSchema = new model.Schema({
 rolesSchema.pre("deleteMany",function (next) {
     const document = this._conditions
     const _id = document._id;
-    model.db.model("Menu").deleteMany({ user: _id })
-    model.db.model("GroupLevelRole").deleteMany({ user: _id })
-    model.db.model("UserRole").deleteMany({ user: _id })
+    model.db.model("Menu").deleteMany({ role: _id })
+    model.db.model("GroupLevelRole").deleteMany({ role: _id })
+    model.db.model("UserRole").deleteMany({ role: _id })
     next()
 })
 // rolesSchema.pre("find", async function () {

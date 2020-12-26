@@ -61,7 +61,11 @@
       "$oid": "5fe5bfd0e2a1031f3c14c18c"
     }
   ],
-  "menus": [],
+  "menus": [
+    {
+      "$oid": "5fe4520ec32a0520d817c5b2"
+    }
+  ],
   "userroles": [
     {
       "$oid": "5fe6ce8ae6213e07d83b7980"
@@ -173,6 +177,9 @@
   "userroles": [
     {
       "$oid": "5fe6cee1e6213e07d83b7983"
+    },
+    {
+      "$oid": "5fe7114f40cb1705cce53116"
     }
   ]
 },{
@@ -208,6 +215,9 @@
   "userroles": [
     {
       "$oid": "5fe6cf01e6213e07d83b7986"
+    },
+    {
+      "$oid": "5fe7114a40cb1705cce53115"
     }
   ]
 },{
@@ -243,6 +253,9 @@
   "userroles": [
     {
       "$oid": "5fe6cf05e6213e07d83b7987"
+    },
+    {
+      "$oid": "5fe7114740cb1705cce53114"
     }
   ]
 },{
@@ -278,6 +291,9 @@
   "userroles": [
     {
       "$oid": "5fe6cf0ae6213e07d83b7988"
+    },
+    {
+      "$oid": "5fe7114440cb1705cce53113"
     }
   ]
 },{
@@ -312,6 +328,14 @@
   "userroles": [
     {
       "$oid": "5fe6cf0ee6213e07d83b798a"
+    },
+    {
+      "$oid": "5fe7111940cb1705cce53112"
+    }
+  ],
+  "menus": [
+    {
+      "$oid": "5fe44d6f85de9126dc6a1792"
     }
   ]
 },{
@@ -380,41 +404,6 @@
   "userroles": [
     {
       "$oid": "5fe6cf11e6213e07d83b798b"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "5fe33bb67ce86f31d456f515"
-  },
-  "HaveAccessView": true,
-  "HaveAccessCreate": false,
-  "HaveAccessEdit": false,
-  "HaveAccessDelete": false,
-  "HaveAccessPrint": false,
-  "HaveAccessCustom": false,
-  "name": "Change Profile",
-  "remark": "-",
-  "controller": "",
-  "url": "setting/changeprofile",
-  "created_at": {
-    "$date": "2020-12-23T12:44:38.191Z"
-  },
-  "updated_at": {
-    "$date": "2020-12-23T12:44:38.191Z"
-  },
-  "__v": 0,
-  "grouplevelroles": [
-    {
-      "$oid": "5fe5f30a3a6a7a253812003d"
-    },
-    {
-      "$oid": "5fe5f3b23a6a7a253812004b"
-    }
-  ],
-  "menus": [],
-  "userroles": [
-    {
-      "$oid": "5fe6cf12e6213e07d83b798c"
     }
   ]
 },{

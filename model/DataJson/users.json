@@ -24,6 +24,21 @@
   "userroles": [
     {
       "$oid": "5fe6ce8ae6213e07d83b7980"
+    },
+    {
+      "$oid": "5fe7111940cb1705cce53112"
+    },
+    {
+      "$oid": "5fe7114440cb1705cce53113"
+    },
+    {
+      "$oid": "5fe7114740cb1705cce53114"
+    },
+    {
+      "$oid": "5fe7114a40cb1705cce53115"
+    },
+    {
+      "$oid": "5fe7114f40cb1705cce53116"
     }
   ]
 },{
@@ -36,7 +51,7 @@
   "phone": "-",
   "gender": "M",
   "address": "-",
-  "password": "$2a$10$O8ZbaYv/L8POlBFZVzpV8.dhnbfXXeeP3kW8YmDP5BVMjr9vtNWLC",
+  "password": "$2a$10$to.bM3VfN51SC7/ZrFNi.O.lYxQXrDzE/aGX5BrkBa2aHGZMS4CZC",
   "created_at": {
     "$date": "2020-12-20T13:50:18.020Z"
   },

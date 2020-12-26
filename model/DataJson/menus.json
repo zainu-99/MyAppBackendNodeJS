@@ -12,7 +12,7 @@
   ],
   "menuText": "Admin System",
   "remark": "-",
-  "icon": "fa fa-circle",
+  "icon": "fa fa-user-cog",
   "orderSort": 1,
   "role": {
     "$oid": "5fd8b56051e5642c146ed5a4"
@@ -59,7 +59,11 @@
   "_id": {
     "$oid": "5fe44e4585de9126dc6a1794"
   },
-  "children": [],
+  "children": [
+    {
+      "$oid": "5fe7bf31ffb28a1a58862a67"
+    }
+  ],
   "menuText": "Setting",
   "remark": "-",
   "icon": "fa fa-cog",
@@ -183,6 +187,28 @@
   },
   "updated_at": {
     "$date": "2020-12-24T08:33:33.722Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7bf31ffb28a1a58862a67"
+  },
+  "children": [],
+  "menuText": "Change Password",
+  "remark": "-",
+  "icon": "fa fa-circle",
+  "orderSort": 1,
+  "role": {
+    "$oid": "5fe33bc37ce86f31d456f516"
+  },
+  "parent": {
+    "$oid": "5fe44e4585de9126dc6a1794"
+  },
+  "created_at": {
+    "$date": "2020-12-26T22:54:41.258Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T22:54:41.258Z"
   },
   "__v": 0
 }]

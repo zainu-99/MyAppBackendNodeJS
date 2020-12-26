@@ -2,10 +2,10 @@
   "_id": {
     "$oid": "5fe6ce8ae6213e07d83b7980"
   },
-  "allowView": false,
-  "allowCreate": false,
-  "allowEdit": false,
-  "allowDelete": false,
+  "allowView": true,
+  "allowCreate": true,
+  "allowEdit": true,
+  "allowDelete": true,
   "allowPrint": false,
   "allowCustom": false,
   "user": {
@@ -318,6 +318,121 @@
   },
   "updated_at": {
     "$date": "2020-12-26T05:50:12.637Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7111940cb1705cce53112"
+  },
+  "allowView": true,
+  "allowCreate": false,
+  "allowEdit": false,
+  "allowDelete": false,
+  "allowPrint": false,
+  "allowCustom": false,
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "role": {
+    "$oid": "5fd8b56051e5642c146ed5a4"
+  },
+  "created_at": {
+    "$date": "2020-12-26T10:31:53.783Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T10:31:53.783Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7114440cb1705cce53113"
+  },
+  "allowView": true,
+  "allowCreate": true,
+  "allowEdit": true,
+  "allowDelete": false,
+  "allowPrint": false,
+  "allowCustom": false,
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "role": {
+    "$oid": "5fd89b9e18c82d217498f97c"
+  },
+  "created_at": {
+    "$date": "2020-12-26T10:32:36.062Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T10:32:36.062Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7114740cb1705cce53114"
+  },
+  "allowView": true,
+  "allowCreate": true,
+  "allowEdit": true,
+  "allowDelete": false,
+  "allowPrint": false,
+  "allowCustom": false,
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "role": {
+    "$oid": "5fd89b8d18c82d217498f97b"
+  },
+  "created_at": {
+    "$date": "2020-12-26T10:32:39.571Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T10:32:39.571Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7114a40cb1705cce53115"
+  },
+  "allowView": true,
+  "allowCreate": true,
+  "allowEdit": true,
+  "allowDelete": false,
+  "allowPrint": false,
+  "allowCustom": false,
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "role": {
+    "$oid": "5fd89b6d18c82d217498f97a"
+  },
+  "created_at": {
+    "$date": "2020-12-26T10:32:42.470Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T10:32:42.470Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe7114f40cb1705cce53116"
+  },
+  "allowView": true,
+  "allowCreate": true,
+  "allowEdit": true,
+  "allowDelete": true,
+  "allowPrint": false,
+  "allowCustom": false,
+  "user": {
+    "$oid": "5fdf5600dd7fbe329c228c1b"
+  },
+  "role": {
+    "$oid": "5fd89b6118c82d217498f979"
+  },
+  "created_at": {
+    "$date": "2020-12-26T10:32:47.052Z"
+  },
+  "updated_at": {
+    "$date": "2020-12-26T10:32:47.052Z"
   },
   "__v": 0
 }]
