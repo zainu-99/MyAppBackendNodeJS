@@ -552,29 +552,6 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "5fe5f3b23a6a7a253812004b"
-  },
-  "isViewActive": true,
-  "isCreateActive": false,
-  "isEditActive": false,
-  "isDeleteActive": false,
-  "isPrintActive": false,
-  "isCustomActive": false,
-  "grouplevel": {
-    "$oid": "5fe559ff97b46e045456dfc3"
-  },
-  "role": {
-    "$oid": "5fe33bb67ce86f31d456f515"
-  },
-  "created_at": {
-    "$date": "2020-12-25T14:14:10.029Z"
-  },
-  "updated_at": {
-    "$date": "2020-12-25T14:14:10.029Z"
-  },
-  "__v": 0
-},{
-  "_id": {
     "$oid": "5fe5f3b33a6a7a253812004c"
   },
   "isViewActive": true,

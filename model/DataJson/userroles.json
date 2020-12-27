@@ -276,29 +276,6 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "5fe6cf12e6213e07d83b798c"
-  },
-  "allowView": true,
-  "allowCreate": false,
-  "allowEdit": false,
-  "allowDelete": false,
-  "allowPrint": false,
-  "allowCustom": false,
-  "user": {
-    "$oid": "5fdf569add7fbe329c228c1e"
-  },
-  "role": {
-    "$oid": "5fe33bb67ce86f31d456f515"
-  },
-  "created_at": {
-    "$date": "2020-12-26T05:50:10.215Z"
-  },
-  "updated_at": {
-    "$date": "2020-12-26T05:50:10.215Z"
-  },
-  "__v": 0
-},{
-  "_id": {
     "$oid": "5fe6cf14e6213e07d83b798d"
   },
   "allowView": true,
